@@ -55,7 +55,6 @@ main {
   font-size: 22px;
   line-height: 120%;
   font-weight: 700;
-  display: block;
   color: hsl(218, 44%, 22%);
   letter-spacing: 0px;
 }
