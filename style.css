@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;    /* centers vertically */
+  min-height: 100vh;      /* ensures the container takes up full viewport height */
+  margin: 0;   
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.image-container {
+  border-radius: 16px;
+  overflow: hidden; /* Clips the image to the rounded corners */
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  width: 320px;
+  height: 500px; 
+  padding: 16px;
+  align-self: center;
+}
+
+.text-container {
+  padding: 0 16px;
+}
+
+.title {
+  text-align: center;
+  margin: 24px 0 16px 0; 
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 700;
+  display: block;
+  color: hsl(218, 44%, 22%);
+  letter-spacing: 0px;
+}
+
+.description {
+  display: block;
+  color: hsl(216, 15%, 48%);
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.qrContainer {
+  padding: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 8px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
