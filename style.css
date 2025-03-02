@@ -42,6 +42,7 @@ main {
   max-width: 320px;
   height: 499px; 
   align-self: center;
+  box-shadow: 2px 25px 25px 0px rgb(0 0 0 / 4.77%);
 }
 
 .text-container {
