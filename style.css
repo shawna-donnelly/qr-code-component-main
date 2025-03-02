@@ -27,15 +27,19 @@ main {
 }
 
 .image-container img {
-  display: block;
+  display: flex;
+  flex: 1;
   width: 100%;
   height: auto;
 }
 
 .card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   background-color: white;
   border-radius: 20px;
-  width: 320px;
+  max-width: 320px;
   height: 500px; 
   padding: 16px;
   align-self: center;
